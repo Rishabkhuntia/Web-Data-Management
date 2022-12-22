@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Web Mashup: Display Best Restaurants on a Map</title>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="yelp.js"></script>
+    <style>
+      #map {
+        height: 500px;
+        width: 600px;
+      }
+       html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ .column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+ .row {margin: 0 -5px;}
+
+ .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ @media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+ .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+    </style>
+  </head>
+  <body onload="initialize();">
+    <form>
+       <label>Search Terms: <input type="text" id="search"/></label>
+       <input type="button" onclick="sendRequest();" value="Find"/>
+    </form>
+    <div id="output">&nbsp;</div>
+    <div id="map"></div>
+    <ul id="res"></ul>
+    <div class="row" id="new"></div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoC_3fy4Uyksd_L-g50WQU4Y4Mdui4fKw&callback=initialize&libraries=geometry"
+    async defer></script>
+  </body>
+</html>
