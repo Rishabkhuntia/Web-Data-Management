@@ -1,0 +1,91 @@
+1. Output from DOM.java execution-------
+Calculus I
+Calculus I
+Calculus II
+Calculus II
+Calculus II
+Introduction to Analysis I
+Complex Analysis
+Advanced Calculus
+Geometry
+Probability
+Topics in Advanced AnalysisII
+Algebraic Structures
+Topics In Computer Theory
+
+2. Output fromxpath.java---------------------
+XPath query: /root/course[subj='MATH' and place/building= 'LIB' and place/room='204']
+Calculus I
+Calculus I
+Calculus II
+Calculus II
+Calculus II
+Introduction to Analysis I
+Complex Analysis
+Advanced Calculus
+Geometry
+Probability
+Topics in Advanced AnalysisII
+Algebraic Structures
+Topics In Computer Theory
+----------------------------------------------Weitng---------------------------------------
+XPath query: /root/course[instructor='Wieting']
+Calculus II
+Introduction to Analysis I
+Introduction to Analysis II
+Geometry
+Probability
+Ornamental Art
+-----------------------------------------------------Inst-----------------------------------------------
+XPath query: /root/course[subj='MATH' and crse= '412']
+Mayer
+
+3.Output from xslt.java-------------------------
+
+Math courses in Reed college
+Course	Instructor	Title	Sect
+MATH	Mayer	Calculus I	F01
+MATH	Shurman	Calculus I	F02
+MATH	Mayer	Calculus I	F03
+MATH	Potluri	Calculus I	F04
+MATH	Shurman	Calculus I	F05
+MATH	Potluri	Calculus I	F06
+MATH	Potluri	Calculus I	S01
+MATH	Potluri	Calculus I	S02
+MATH	Mayer	Calculus II	S01
+MATH	Perkinson	Calculus II	S02
+MATH	Jones	Calculus II	S03
+MATH	Wieting	Calculus II	S04
+MATH	Perkinson	Calculus II	S05
+MATH	Bernhard	Calculus II	S06
+MATH	Fix	Introduction to Computing	F01
+MATH	Fix	Introduction to Computing	F01
+MATH	Fix	Introduction to Computing	F02
+MATH	Fix	Introduction to Computing	F02
+MATH	Shurman	Introduction to Combinatorics	S
+MATH	Jones	Intro to Probability and Statist	F01
+MATH	Jones	Intro to Probability and Statist	F02
+MATH	Jones	Intro to Probability and Statist	FL1
+MATH	Jones	Intro to Probability and Statist	FL2
+MATH	Jones	Intro to Probability and Statist	FL3
+MATH	Perkinson	Introduction to Analysis I	F01
+MATH	Wieting	Introduction to Analysis I	F02
+MATH	Bernhard	Introduction to Analysis I	F03
+MATH	Wieting	Introduction to Analysis II	S01
+MATH	Bernhard	Introduction to Analysis II	S02
+MATH	Perkinson	Complex Analysis	S
+MATH	Shurman	Advanced Calculus	F
+MATH	Mayer	Linear Algebra	F01
+MATH	Potluri	Linear Algebra	F02
+MATH	Jones	Linear Algebra	S
+MATH	Bernhard	Abstract Algebra	S
+MATH	Wieting	Geometry	S
+MATH	Perkinson	Combinatorics	F
+MATH	Fix	Data Structure and Algorithm	S
+MATH	Fix	Computer Graphics	S
+MATH	Wieting	Probability	F
+MATH	Mayer	Topics in Advanced AnalysisII	S
+MATH	Shurman	Elemetary Number Theory	S
+MATH	Bernhard	Algebraic Structures	F
+MATH	Fix	Topics In Computer Theory	F
+MATH	Wieting	Ornamental Art	F
